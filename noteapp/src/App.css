@@ -1,0 +1,161 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vh;
+  background-color: #1d2021;
+}
+
+.notes-list{
+  min-height: 60vh;
+  background-color: #282828;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notes-body{
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.notes-container{
+  height: 2.5rem;
+  width: 600px;
+  overflow: hidden;
+  background-color: #282828;
+  margin: .5em 0;
+  padding: 1rem;
+  border-radius: .3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes-container:hover{
+  background-color: #1d2021;
+}
+
+.link-btn{
+  text-decoration: none;
+}
+
+.date{
+  color: #a89984;
+}
+
+.options {
+  color: #fbf1c7;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-bottom: .7rem;
+}
+
+.opt-button{
+  background-color: none;
+  color: orange;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.addnote-container{
+  display: flex;
+  align-self: flex-end;
+}
+
+.header{
+  background-color: #000000;
+  padding: 1rem 15rem;
+  color: #ffffff;
+  margin: 1em;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+.notes{
+  color: #fbf1c7;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.textarea {
+  width: 600px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border: 1px solid #fbf1c7;
+  color: #fbf1c7;
+  border-radius: 4px;
+  background-color: #282828;
+  font-size: 16px;
+  resize: none;
+}
+
+.back-arrow{
+  font-size: 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 3px;
+  color: #fbf1c7;
+  text-decoration: none;
+}
+
+.notes-header{
+  display: flex;
+  width: 38rem;
+  justify-content: space-between;
+}
+
+.notes-header h2{
+  font-size: 2.5rem;
+  color: #98971c;
+}
+
+.notes-length{
+  font-size: 2rem;
+  color: #fbf1c7;
+}
+
+.update-btn{
+  color: #98971c;
+  padding: 5px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.update-btn:hover{
+  border: 2px solid #282828;
+  color: #fbf1c7;
+  font-weight: 400;
+}
+
+.delete-btn{
+  color: #fe8019;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.note-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addnote-button{
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  padding: .5rem 1.5rem;
+  text-decoration: none;
+  color: #fbf1c7;
+  background-color: #458588;
+  margin-top: 1rem;
+}
